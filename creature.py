@@ -25,5 +25,7 @@ class Creature():
             child_y = self._y + random.uniform(-5, 5)
             child_genome = transcribe(self._genome)
 
+            self._max_offspring -= 1
+
             return child_x, child_y, child_genome
         return None

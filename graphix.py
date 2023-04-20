@@ -11,12 +11,12 @@ ALIVE = []
 #When not in predator range
 def move_creature(creature):
     if random.random() > 0.95:
-        creature._angle = angle = random.uniform(0, 2 * np.pi)
+        creature._angle = random.uniform(0, 2 * np.pi)
     x_move = np.cos(creature._angle) * creature._speed
     y_move = np.sin(creature._angle) * creature._speed
     pygame.draw.circle(screen, creature._color, (creature._x + x_move, creature._y + y_move), creature._size)
     creature._x += x_move
-    creature._x += y_move
+    creature._y += y_move
 
 def reproduce(creature):
     if creature._r_meter <= 0:
