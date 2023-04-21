@@ -38,6 +38,13 @@ ALIVE_LIST += [first_guy]
 
 clock = pygame.time.Clock()
 
+# pick a font you have and set its size
+myfont = pygame.font.SysFont("Comic Sans MS", 30)
+# apply it to text on a label
+label = myfont.render("Python and Pygame are Fun!", 1, (255,0,0))
+# put the label object on the screen at point x=100, y=100
+
+
 #MAIN LOOP
 while True:
     clock.tick(30) #timer 30 fps
@@ -48,6 +55,7 @@ while True:
             pygame.quit()
 
     screen.fill((255,255,255))
+    screen.blit(label, (100, 100))
 
     for creature in ALIVE_LIST :
         move_creature(creature)
