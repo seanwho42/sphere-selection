@@ -47,8 +47,8 @@ def transcribe(parent_genome):
     offspring_genome = ""
     nucleotides = ["a","c","g","t"]
     for n in range(0, 24):
-        rand_int = random.randrange(0, 11)
-        if rand_int <= 2:
+        rand_int = random.randrange(0, 10)
+        if rand_int < 1:
             # mutate
             offspring_genome += random.choice(nucleotides)
         else:
