@@ -25,15 +25,9 @@ def translate(genome):
 
 def codon_to_number(codon):
     number_str = ""
+    convert = {"a":"0", "c":"1", "g":"2", "t":"3"}
     for letter in codon:
-        if letter == "a":
-            number_str += "0"
-        if letter == "c":
-            number_str += "1"
-        if letter == "g":
-            number_str += "2"
-        if letter == "t":
-            number_str += "3"
+        number_str += convert[letter]
     # print(number_str)
     # base four covers 0-63
     number = int(number_str,4)
