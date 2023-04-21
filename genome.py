@@ -20,7 +20,7 @@ def translate(genome):
           codon_to_number(speed_codon),
           codon_to_number(reproduction_rate_codon) * 10/63 + 10, # from 10-20 seconds per reproduction?
           codon_to_number(n_offspring_codon) * 3//63,
-          codon_to_number(run_variance_codon) * 90/63 # convert to range within 90 degrees
+          codon_to_number(run_variance_codon) * 90/63 - 45 # convert to range within 90 degrees
           )
 
 def codon_to_number(codon):
