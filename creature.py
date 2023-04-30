@@ -8,7 +8,7 @@ import random
 from genome import translate, transcribe
 
 class Creature():
-    def __init__(self, x, y, genome, children = None, parent = None):
+    def __init__(self, x, y, genome, generation, children = None, parent = None):
         self._x = x
         self._y = y
         self._angle = 0 # In radians
@@ -24,6 +24,7 @@ class Creature():
         self._r_meter = self._r_rate #Holds how long until next reproduction
         self._max_offspring = attributes[4]
 
+        self._generation = generation
         self._children = [children]
         self._parent = parent
 
@@ -38,9 +39,9 @@ class Creature():
             return child_x, child_y, child_genome
         return None
 
+    """
     def traverse_tree(self, root):
         layers = [root]
-        count = 0
         while layers[layers.len() - 1].len() != 0:
             temp_list = []
             for i in layers[layers.len() - 1]:
@@ -48,7 +49,7 @@ class Creature():
                     temp_list.append(current._chidlren[j])
                 layers.append(temp_list)
         return(layers)
-                    
+    """
 
     def get_data(self):
         return self.data

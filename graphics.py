@@ -8,18 +8,19 @@ WIDTH = 900
 HEIGHT = 500
 ALIVE_LIST = []
 HUNTED = []
+PREDATOR_START = False
 
 #When not in predator range
 def move_creature(creature):
     global HUNTED, ALIVE_LIST
     
     #Check if within predator, if so, die
-    if predator.x - 5 < creature._x < predator.x + 75 and predator.y - 5 < creature._y < predator.y + 75:
+    if predator.x - 30 < creature._x < predator.x + 105 and predator.y - 30 < creature._y < predator.y + 105 and PREDATOR_START:
         ALIVE_LIST.remove(creature)
         print("died")
         return
     #Check if within hunting radius, if so, run away from predator 
-    if predator.x - 100 < creature._x < predator.x + 175 and predator.y - 100 < creature._y < predator.y + 175:
+    if predator.x - 1000 < creature._x < predator.x + 1750 and predator.y - 1000 < creature._y < predator.y + 1750 and PREDATOR_START:
         HUNTED += [creature]
 
     if random.random() > 0.95:
@@ -34,11 +35,15 @@ def move_creature(creature):
     
 
 def reproduce(creature):
+    global PREDATOR_START
     if creature._r_meter <= 0:
         child_params = creature.generate_child_params() #parameters of child
         if child_params != None:
             global ALIVE_LIST  
-            child = Creature(*child_params, parent = creature) #init
+            child = Creature(*child_params, generation = creature._generation + 1, parent = creature) #init
+            print(child._generation)
+            if child._generation == 3:
+                PREDATOR_START = True
             creature.append_child(child)
             ALIVE_LIST  += [child] 
         creature._r_meter = creature._r_rate
@@ -60,23 +65,24 @@ def move_predator():
         x_move = np.cos(angle) 
         y_move = np.sin(angle)
         #Move towards hunted
-        predator.x += x_move
-        predator.y += y_move
+        predator.x += x_move * 1.2
+        predator.y += y_move * 1.2
         #p_sense.x += x_move
         #p_sense.y += y_move
     HUNTED = []
+    screen.blit(p_image, predator)
     return
 
 pygame.init()
 
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 
-first_guy = Creature(450, 250, "gggggggggggggggggggggggg", None)
+first_guy = Creature(450, 250, "gggggggggggggggggggggggg", 0, None)
 ALIVE_LIST += [first_guy]
 
 p_image = pygame.image.load("predator.jpg")
 p_image = pygame.transform.scale(p_image, (75, 75))
-predator = Rect((200, 100), (75,75))
+predator = Rect((-70, 250), (75,75))
 #p_sense = Rect((100, 0), (2750, 275))
 
 clock = pygame.time.Clock()
@@ -99,14 +105,12 @@ while True:
 
     screen.fill((255,255,255))
     #pygame.draw.rect(screen, (255, 0, 0), p_sense)
-    screen.blit(p_image, predator)
 
     #screen.blit(label, (100, 100))
-    
-
     for creature in ALIVE_LIST :
         move_creature(creature)
         reproduce(creature)
+    if PREDATOR_START:
         move_predator()
     
     pygame.display.update()
