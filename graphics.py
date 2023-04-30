@@ -1,6 +1,7 @@
 import pygame
 import numpy as np
 import random
+import time
 from pygame.locals import *
 from creature import Creature
  
@@ -32,7 +33,6 @@ def move_creature(creature):
     creature._y += y_move
     if creature._x > WIDTH - creature._size / 2 or creature._x < 0 or creature._y > HEIGHT - creature._size / 2 or creature._y < 0:
         creature._angle = creature._angle - 180
-    
 
 def reproduce(creature):
     global PREDATOR_START
@@ -87,12 +87,15 @@ predator = Rect((-70, 250), (75,75))
 
 clock = pygame.time.Clock()
 
+"""
 # pick a font you have and set its size
 myfont = pygame.font.SysFont("Comic Sans MS", 30)
 # apply it to text on a label
 label = myfont.render("Python and Pygame are Fun!", 1, (255,0,0))
 # put the label object on the screen at point x=100, y=100
+"""
 
+start = time.time()
 
 #MAIN LOOP
 while True:
@@ -103,14 +106,20 @@ while True:
         if event.type == QUIT:
             pygame.quit()
 
-    screen.fill((255,255,255))
     #pygame.draw.rect(screen, (255, 0, 0), p_sense)
-
-    #screen.blit(label, (100, 100))
-    for creature in ALIVE_LIST :
-        move_creature(creature)
-        reproduce(creature)
-    if PREDATOR_START:
-        move_predator()
-    
+    if time.time() - start <= 30:
+        screen.fill((150, 255, 150))
+        #screen.blit(label, (100, 100))
+        for creature in ALIVE_LIST:
+            move_creature(creature)
+            reproduce(creature)
+        if PREDATOR_START:
+            move_predator()
+    else:
+        screen.fill((0, 0, 0))
+        for creature in ALIVE_LIST:
+            pygame.draw.circle(screen, creature._color, (creature._x, creature._y), creature._size)
+        screen.blit(p_image, predator)
+        pass #display end analysis
     pygame.display.update()
+    

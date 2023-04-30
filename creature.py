@@ -1,6 +1,6 @@
 #todo
-#predator
-#link creatures in tree
+#camoflague
+#creatures run away from predator
 #at end of simulation display full tree
 
 import pygame
@@ -19,7 +19,7 @@ class Creature():
         self._is_alive = True
         self._color = attributes[0]
         self._size = attributes[1] / 3
-        self._speed = attributes[2] / 63
+        self._speed = attributes[2] / 47 
         self._r_rate = attributes[3] * 10 # Reproduction rate
         self._r_meter = self._r_rate #Holds how long until next reproduction
         self._max_offspring = attributes[4]
@@ -38,18 +38,6 @@ class Creature():
 
             return child_x, child_y, child_genome
         return None
-
-    """
-    def traverse_tree(self, root):
-        layers = [root]
-        while layers[layers.len() - 1].len() != 0:
-            temp_list = []
-            for i in layers[layers.len() - 1]:
-                for j in range(i._children):
-                    temp_list.append(current._chidlren[j])
-                layers.append(temp_list)
-        return(layers)
-    """
 
     def get_data(self):
         return self.data
