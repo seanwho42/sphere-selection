@@ -29,6 +29,9 @@ def move_creature(creature):
     pygame.draw.circle(screen, creature._color, (creature._x + x_move, creature._y + y_move), creature._size)
     creature._x += x_move
     creature._y += y_move
+    if creature._x > WIDTH - creature._size / 2 or creature._x < 0 or creature._y > HEIGHT - creature._size / 2 or creature._y < 0:
+        creature._angle = creature._angle - 180
+    
 
 def reproduce(creature):
     if creature._r_meter <= 0:

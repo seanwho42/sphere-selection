@@ -1,5 +1,4 @@
 #todo
-#wall boundaries
 #predator
 #link creatures in tree
 #at end of simulation display full tree
@@ -38,6 +37,18 @@ class Creature():
 
             return child_x, child_y, child_genome
         return None
+
+    def traverse_tree(self, root):
+        layers = [root]
+        count = 0
+        while layers[layers.len() - 1].len() != 0:
+            temp_list = []
+            for i in layers[layers.len() - 1]:
+                for j in range(i._children):
+                    temp_list.append(current._chidlren[j])
+                layers.append(temp_list)
+        return(layers)
+                    
 
     def get_data(self):
         return self.data
