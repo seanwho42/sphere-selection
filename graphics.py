@@ -10,18 +10,20 @@ HEIGHT = 500
 ALIVE_LIST = []
 HUNTED = []
 PREDATOR_START = False
+BACKGROUND_COLOR = (150, 255, 150)
 
 #When not in predator range
 def move_creature(creature):
     global HUNTED, ALIVE_LIST
     
     #Check if within predator, if so, die
-    if predator.x - 30 < creature._x < predator.x + 105 and predator.y - 30 < creature._y < predator.y + 105 and PREDATOR_START:
+    if predator.x - 30 < creature._x < predator.x + 105 and predator.y - 30 < creature._y < predator.y + 105 and PREDATOR_START and not creature._camouflaged:
         ALIVE_LIST.remove(creature)
+        creature._is_alive = False
         print("died")
         return
     #Check if within hunting radius, if so, run away from predator 
-    if predator.x - 1000 < creature._x < predator.x + 1750 and predator.y - 1000 < creature._y < predator.y + 1750 and PREDATOR_START:
+    if predator.x - 1000 < creature._x < predator.x + 1750 and predator.y - 1000 < creature._y < predator.y + 1750 and PREDATOR_START and not creature._camouflaged:
         HUNTED += [creature]
 
     if random.random() > 0.95:
@@ -97,6 +99,18 @@ label = myfont.render("Python and Pygame are Fun!", 1, (255,0,0))
 
 start = time.time()
 
+def tree_traverse(creature, log):
+    # tree traversal recursive function which logs all creatures to csv
+
+    # print(f"creature:{creature}")
+    # print(f"children:{creature._children}")
+    # object_id, genome, is_alive, color, color_diff, camoflauged, size, speed, r_rate, max_offspring, generation, parent_id
+    log.write(f"{creature}, {creature._genome}, {creature._is_alive}, {creature._color}, {creature._color_diff}, {creature._camouflaged}, {creature._size}, {creature._speed}, {creature._r_rate}, {creature._max_offspring}, {creature._generation}, {creature._parent}\n")
+    for child in creature._children:
+        if child is not None:
+            tree_traverse(child, log)
+
+
 #MAIN LOOP
 while True:
     clock.tick(30) #timer 30 fps
@@ -107,8 +121,8 @@ while True:
             pygame.quit()
 
     #pygame.draw.rect(screen, (255, 0, 0), p_sense)
-    if time.time() - start <= 30:
-        screen.fill((150, 255, 150))
+    if time.time() - start <= 120:
+        screen.fill(BACKGROUND_COLOR)
         #screen.blit(label, (100, 100))
         for creature in ALIVE_LIST:
             move_creature(creature)
@@ -120,6 +134,15 @@ while True:
         for creature in ALIVE_LIST:
             pygame.draw.circle(screen, creature._color, (creature._x, creature._y), creature._size)
         screen.blit(p_image, predator)
-        pass #display end analysis
+        log_file = open(f"creature-log-{time.asctime(time.localtime(time.time()))}.csv", "a")
+        cumulative_log_file = open("cumulative-creature-log.csv", "a")
+        log_file.write(f'object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id\n')
+        # print(first_guy)
+        # todo make a keyboard thing here so it waits for us to hit a given key
+        tree_traverse(first_guy, log_file)
+        tree_traverse(first_guy, cumulative_log_file)
+        time.sleep(60)
+        break
+        #tree_traverse(first_guy, log_file)
     pygame.display.update()
     

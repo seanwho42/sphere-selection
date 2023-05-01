@@ -6,6 +6,9 @@
 import pygame
 import random
 from genome import translate, transcribe
+# from graphics import BACKGROUND_COLOR
+BACKGROUND_COLOR = (150, 255, 150) # referencing wasnt worlking so were hard coding now boyss
+import numpy as np
 
 class Creature():
     def __init__(self, x, y, genome, generation, children = None, parent = None):
@@ -18,6 +21,8 @@ class Creature():
         
         self._is_alive = True
         self._color = attributes[0]
+        self._color_diff = self.get_color_diff()
+        self._camouflaged = self.is_camouflaged()
         self._size = attributes[1] / 3
         self._speed = attributes[2] / 47 
         self._r_rate = attributes[3] * 10 # Reproduction rate
@@ -38,6 +43,20 @@ class Creature():
 
             return child_x, child_y, child_genome
         return None
+
+    def get_color_diff(self):
+        r, g, b = self._color
+        color_diff = abs(r - BACKGROUND_COLOR[0]) + abs(g - BACKGROUND_COLOR[1]) + abs(b - BACKGROUND_COLOR[2])
+        return color_diff
+
+    def is_camouflaged(self):
+        # determines whether or not is camouflaged based on a threshold
+        # it would be better to do a probability thing but that complicates
+        # the logic down the road so this is good enough for now
+        if self._color_diff < 90:
+            return True
+        else:
+            return False
 
     def get_data(self):
         return self.data
