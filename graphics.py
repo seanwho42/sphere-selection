@@ -1,6 +1,6 @@
 import pygame
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import pandas as pd
 import random
 import time
@@ -143,7 +143,7 @@ def tree_traverse(creature, log):
             tree_traverse(child, log)
 
 def log_histogram():
-    sv = pd.read_csv('creature-logSun Apr 30 18_01_32 2023.csv')
+    sv = pd.read_csv('a.csv') #file name to read from
     #speed
     # sv[sv [' is_alive'] == 'true'][' is_alive'], ['object_id'], [' genome'], [' color'], [' color_diff'], [' camoflauged'], [' size'], [' speed'], [' r_rate'], [' max_offspring'], [' generation'], [' parent_id']
     alives = sv[sv[' is_alive'] == 'true'][' is_alive'], [' speed'], [' camoflauged']
@@ -176,9 +176,10 @@ while True:
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
+            log_histogram()
 
     #pygame.draw.rect(screen, (255, 0, 0), p_sense)
-    if time.time() - start <= 5:
+    if time.time() - start <= 120:
         screen.fill(BACKGROUND_COLOR)
         #screen.blit(label, (100, 100))
         for creature in ALIVE_LIST:
@@ -201,5 +202,7 @@ while True:
         for event in pygame.event.get():
             if event.type == QUIT:
                 pygame.quit()
+                log_histogram()
+
         #tree_traverse(first_guy, log_file)
     pygame.display.update()
