@@ -28,10 +28,12 @@ class Creature():
         self._r_rate = attributes[3] * 10 # Reproduction rate
         self._r_meter = self._r_rate #Holds how long until next reproduction
         self._max_offspring = attributes[4]
+        self._run_variance = attributes[5]
 
         self._generation = generation
         self._children = [children]
         self._parent = parent
+        self._invuln_timer = 0
 
     def generate_child_params(self):
         if self._max_offspring != 0:
@@ -58,21 +60,6 @@ class Creature():
         else:
             return False
 
-    def get_data(self):
-        return self.data
-
-    # Sets this node's data.
-    def set_data(self, new_data):
-        self.data = new_data
-
-    # Gets this node's next pointer.
-    def get_children(self):
-        return self._children
-
     # Sets this node's next pointer.
     def append_child(self, child):
         self._children.append(child)
-
-    # Gets this node's previous pointer.
-    def get_parent(self):
-        return self._parent
