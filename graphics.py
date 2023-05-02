@@ -1,5 +1,7 @@
 import pygame
 import numpy as np
+import matplotlib as plt
+import pandas as pd
 import random
 import time
 from pygame.locals import *
@@ -139,6 +141,31 @@ def tree_traverse(creature, log):
     for child in creature._children:
         if child is not None:
             tree_traverse(child, log)
+
+def log_histogram():
+    sv = pd.read_csv('creature-logSun Apr 30 18_01_32 2023.csv')
+    #speed
+    # sv[sv [' is_alive'] == 'true'][' is_alive'], ['object_id'], [' genome'], [' color'], [' color_diff'], [' camoflauged'], [' size'], [' speed'], [' r_rate'], [' max_offspring'], [' generation'], [' parent_id']
+    alives = sv[sv[' is_alive'] == 'true'][' is_alive'], [' speed'], [' camoflauged']
+    plt.hist(sv[' speed'], 20)
+    plt.ylabel('Amount of Creatures')
+    plt.xlabel('Speed')
+    plt.title('Varying Speed in Creatures')
+    plt.show()
+
+    #size
+    plt.hist(sv[' size'], 20)
+    plt.ylabel('Amount of Creatures')
+    plt.xlabel('Size')
+    plt.title('Varying Size in Creatures')
+    plt.show()
+
+    #color dif
+    plt.hist(sv[' color_diff'], 20)
+    plt.ylabel('Amount of Creatures')
+    plt.xlabel('Color Difference')
+    plt.title('Color Difference from the Background in Creatures')
+    plt.show()
 
 
 #MAIN LOOP
