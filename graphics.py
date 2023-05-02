@@ -4,6 +4,7 @@ import matplotlib as plt
 import pandas as pd
 import random
 import time
+import keyboard
 from pygame.locals import *
 from creature import Creature
  
@@ -170,6 +171,8 @@ def log_histogram():
 
 #MAIN LOOP
 while True:
+    if keyboard.read_key() == "c":
+        pygame.quit()
     clock.tick(30) #timer 30 fps
     
     #Quits game if ready
