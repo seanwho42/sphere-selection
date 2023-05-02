@@ -4,7 +4,6 @@ import matplotlib as plt
 import pandas as pd
 import random
 import time
-import keyboard
 from pygame.locals import *
 from creature import Creature
  
@@ -171,8 +170,6 @@ def log_histogram():
 
 #MAIN LOOP
 while True:
-    if keyboard.read_key() == "c":
-        pygame.quit()
     clock.tick(30) #timer 30 fps
     
     #Quits game if ready
@@ -181,7 +178,7 @@ while True:
             pygame.quit()
 
     #pygame.draw.rect(screen, (255, 0, 0), p_sense)
-    if time.time() - start <= 12:
+    if time.time() - start <= 5:
         screen.fill(BACKGROUND_COLOR)
         #screen.blit(label, (100, 100))
         for creature in ALIVE_LIST:
@@ -201,8 +198,8 @@ while True:
         # todo make a keyboard thing here so it waits for us to hit a given key
         tree_traverse(first_guy, log_file)
         tree_traverse(first_guy, cumulative_log_file)
-        time.sleep(60)
-        break
+        for event in pygame.event.get():
+            if event.type == QUIT:
+                pygame.quit()
         #tree_traverse(first_guy, log_file)
     pygame.display.update()
-    
