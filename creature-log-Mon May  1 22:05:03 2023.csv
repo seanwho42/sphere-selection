@@ -1,0 +1,390 @@
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
+object_id, genome, is_alive, color, color_diff, camouflaged, size, speed, r_rate, max_offspring, generation, parent_id
+<creature.Creature object at 0x7fcd1742f1f0>, gggggggggggggggggggggggg, False, (168, 168, 168), 123, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 0, None
+<creature.Creature object at 0x7fcd0e9266b0>, ggggaggggggggggggggggggg, True, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926980>, ggggcggggcgggtggggggtggg, True, (168, 152, 168), 139, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926a70>, ggggcgaggcgggtggggagtgcg, True, (168, 152, 40), 231, False, 8.666666666666666, 0.9787234042553191, 166.66666666666669, 0, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b00>, ggggcggggcaggtggggggtggg, True, (168, 152, 168), 139, False, 6.0, 0.9787234042553191, 166.66666666666669, 1, 3, <creature.Creature object at 0x7fcd0e926980>
+<creature.Creature object at 0x7fcd0e926b90>, ggggcggggcaagtgggggatggg, True, (168, 152, 168), 139, False, 5.333333333333333, 0.9787234042553191, 166.66666666666669, 1, 4, <creature.Creature object at 0x7fcd0e926b00>
+<creature.Creature object at 0x7fcd0e9269e0>, ggggaggggggggggggggtgggg, False, (168, 136, 168), 155, False, 14.0, 0.8936170212765957, 166.66666666666669, 1, 2, <creature.Creature object at 0x7fcd0e9266b0>
+<creature.Creature object at 0x7fcd0e926b30>, gtggaggggagagggggggtgggg, False, (184, 136, 168), 171, False, 2.6666666666666665, 0.8936170212765957, 166.66666666666669, 2, 3, <creature.Creature object at 0x7fcd0e9269e0>
+<creature.Creature object at 0x7fcd0e926950>, gggggggtggggggagggcggggg, True, (168, 168, 184), 139, False, 14.0, 0.851063829787234, 166.66666666666669, 0, 1, <creature.Creature object at 0x7fcd1742f1f0>
+<creature.Creature object at 0x7fcd0e926aa0>, gggggcgttgggcgagggcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 166.66666666666669, 0, 2, <creature.Creature object at 0x7fcd0e926950>
+<creature.Creature object at 0x7fcd0e926b60>, gggggcgttgggcgagtgcggggg, True, (168, 164, 188), 147, False, 14.0, 0.5106382978723404, 173.015873015873, 0, 3, <creature.Creature object at 0x7fcd0e926aa0>
+<creature.Creature object at 0x7fcd0e926bc0>, gggggcattgggcgagtgcggggg, True, (168, 164, 60), 199, False, 14.0, 0.5106382978723404, 173.015873015873, 1, 4, <creature.Creature object at 0x7fcd0e926b60>
