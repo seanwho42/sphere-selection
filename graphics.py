@@ -17,24 +17,39 @@ def move_creature(creature):
     global HUNTED, ALIVE_LIST
     
     #Check if within predator, if so, die
-    if predator.x - 30 < creature._x < predator.x + 105 and predator.y - 30 < creature._y < predator.y + 105 and PREDATOR_START and not creature._camouflaged:
+    if predator.x - 30 - 35 < creature._x < predator.x + 105 - 35 and predator.y - 30 - 35 < creature._y < predator.y + 105 - 35 and PREDATOR_START and not creature._camouflaged:
         ALIVE_LIST.remove(creature)
         creature._is_alive = False
         print("died")
         return
+    if creature._y > HEIGHT - creature._size or creature._y < 0:
+        creature._y = ((creature._y + creature._size) // HEIGHT) * HEIGHT - (creature._size + 1) * ((creature._y + creature._size) // HEIGHT)
+        if creature._angle < np.pi / 2 or creature._angle > -np.pi / 2:
+            creature._angle = np.pi
+        else:
+            creature._angle = 0
+    if creature._x > WIDTH - creature._size or creature._x < 0:
+        creature._x = ((creature._x + creature._size) // WIDTH) * WIDTH - (creature._size + 1) * ((creature._x + creature._size) // WIDTH)
+        if creature._angle < np.pi and creature._angle > 0:
+            creature._angle = -np.pi / 2
+        else:
+            creature._angle = np.pi / 2
     #Check if within hunting radius, if so, run away from predator 
-    if predator.x - 1000 < creature._x < predator.x + 1750 and predator.y - 1000 < creature._y < predator.y + 1750 and PREDATOR_START and not creature._camouflaged:
+    elif predator.x - 1000 < creature._x < predator.x + 1750 and predator.y - 1000 < creature._y < predator.y + 1750 and PREDATOR_START and not creature._camouflaged:
         HUNTED += [creature]
-
-    if random.random() > 0.95:
+        #Run away area
+        if predator.x - 100 < creature._x < predator.x + 175 and predator.y - 100 < creature._y < predator.y + 175:
+            creature._angle = -np.arctan2((creature._y - predator.y), (creature._x - predator.x))
+        elif random.random() > 0.95: 
+            creature._angle = random.uniform(0, 2 * np.pi)
+    elif random.random() > 0.95:
         creature._angle = random.uniform(0, 2 * np.pi)
+
     x_move = np.cos(creature._angle) * creature._speed
     y_move = np.sin(creature._angle) * creature._speed
     pygame.draw.circle(screen, creature._color, (creature._x + x_move, creature._y + y_move), creature._size)
     creature._x += x_move
     creature._y += y_move
-    if creature._x > WIDTH - creature._size / 2 or creature._x < 0 or creature._y > HEIGHT - creature._size / 2 or creature._y < 0:
-        creature._angle = creature._angle - 180
 
 def reproduce(creature):
     global PREDATOR_START
@@ -72,7 +87,11 @@ def move_predator():
         #p_sense.x += x_move
         #p_sense.y += y_move
     HUNTED = []
+    predator.x -= 35
+    predator.y -= 35
     screen.blit(p_image, predator)
+    predator.x += 35
+    predator.y += 35
     return
 
 pygame.init()
